@@ -54,12 +54,12 @@
 
 ><p style="font-size: 15px">Sleep/wake up problem has been eliminated on <b>SMBIOS</b> with <b>19.1</b> and <b>NVRAM> Special UUID> bootargs darkwake = 0</b> command.
 
-><p style="font-size: 15px"><b>In case you install with <b>EFI</b> file, remove <b>Misc> Security> Expose Sensitive Data</b> data if you do not own a <b>B450</b> motherboard.
+><p style="font-size: 15px">In case you install with <b>EFI</b> file, remove <b>Misc> Security> Expose Sensitive Data</b> data if you do not own a <b>B450</b> motherboard.
 
-><p style="font-size: 15px"><b>The <b>EFI</b> file contains the most up-to-date kexts for the <b>TUF B450</b> AMD model. There is new update detection on <b>Hackintool</b>, but I do not recommend installing it because there are many users who receive <b>kernel panic</b> after the update of kexts such as <b>Lilu</b> and <b>WhateverGreen</b>.
+><p style="font-size: 15px">The <b>EFI</b> file contains the most up-to-date kexts for the <b>TUF B450</b> AMD model. There is new update detection on <b>Hackintool</b>, but I do not recommend installing it because there are many users who receive <b>kernel panic</b> after the update of kexts such as <b>Lilu</b> and <b>WhateverGreen</b>.
 
 
-><p style="font-size: 15px"><b>If you have a problem with your keyboard on the <b>OpenCore BootLoader screen</b>, move the <b>PS2 drivers</b> in the <b>Drivers</b> folder in the <b>0.6.0</b> update file I gave above to the <b>EFI> OC> Drivers</b> folder in your memory and try again.
+><p style="font-size: 15px">If you have a problem with your keyboard on the <b>OpenCore BootLoader screen</b>, move the <b>PS2 drivers</b> in the <b>Drivers</b> folder in the <b>0.6.0</b> update file I gave above to the <b>EFI> OC> Drivers</b> folder in your memory and try again.
 
 ><p style="font-size: 15px">There are no problems with <b>AppStore</b> and <b>Apple applications.</b>
 
