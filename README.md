@@ -25,6 +25,46 @@
 >JAMESDONKEY JD120 120GB
 
 ## Installation
+  ### English Guide <br><br>
+> ### OpenCore Update
+</br>
+<p style="font-size: 15px">With OpenCore 0.6.0, unlike previous versions, FwRuntimeService was removed and switched to OpenRuntime. In this context, I will tell you about this process scheme in order to make a fast and smooth transition from old versions to new versions.</p><br>
+
+>First, download the <b><a href="https://github.com/acidanthera/OpenCorePkg/releases" target="_blank">OpenCore-0.6.0-RELEASE.zip</a></b> file from here.
+
+>Extract the zip file you downloaded.
+
+>Copy the <b>BOOTx64.efi</b> file to the <b>BOOT</b> folder in the <b>EFI</b> folder and paste it into the <b>EFI> BOOT</b> folder in the <b>EFI</b> partition you mounted.
+
+>Paste the <b>OpenCore.efi</b> file found in <b>EFI> OC</b> to the EFI> OC folder in the <b>EFI</b> section you mounted.
+
+>Rename the <b>OpenRuntime.efi</b> file in the <b>EFI> OC> Drivers</b> folder to <b>FwRuntimeService.efi</b> and paste it into the <b>EFI> OC></b> Drivers folder in the <b>EFI</b> section you connected.
+
+>Otherwise, you'll get the <b>r11 required</b> error.
+
+<br>
+
+>### Important Notes
+<br/>
+
+><p style="font-size: 15px">The reason why the ALC887 model sound card, which I mentioned under the title of partially working hardware, is given under this title is that the microphone inputs are not working despite all the <b><a href="https://github.com/acidanthera/applealc/wiki/supported-codecs" target="_blank">layout-id</a></b>s. With <b>Apple ALC</b>, sound can be received natively over the speaker with all layout-ids.</p>
+
+
+><p style="font-size: 15px">This is due to OpenCore. On the official documentation, it is stated that in AMD-based systems, layout-ids work smoothly in giving out sound, but the same situation does not exist in terms of microphones. Moreover, no kext has been developed to resolve this situation. For now, the solution to this problem is to use VoodooHDA.kext or a USB tip microphone. It is also stated that it will be developed in the future. You can examine it in detail <a href="https://dortania.github.io/OpenCore-Post-Install/universal/audio.html#no-mic-on-amd" target="_blank"><b>here</b></a>.</p>
+
+><p style="font-size: 15px">Sleep/wake up problem has been eliminated on <b>SMBIOS</b> with <b>19.1</b> and <b>NVRAM> Special UUID> bootargs darkwake = 0</b> command.
+
+><p style="font-size: 15px"><b>In case you install with <b>EFI</b> file, remove <b>Misc> Security> Expose Sensitive Data</b> data if you do not own a <b>B450</b> motherboard.
+
+><p style="font-size: 15px"><b>The <b>EFI</b> file contains the most up-to-date kexts for the <b>TUF B450</b> AMD model. There is new update detection on <b>Hackintool</b>, but I do not recommend installing it because there are many users who receive <b>kernel panic</b> after the update of kexts such as <b>Lilu</b> and <b>WhateverGreen</b>.
+
+
+><p style="font-size: 15px"><b>If you have a problem with your keyboard on the <b>OpenCore BootLoader screen</b>, move the <b>PS2 drivers</b> in the <b>Drivers</b> folder in the <b>0.6.0</b> update file I gave above to the <b>EFI> OC> Drivers</b> folder in your memory and try again.
+
+><p style="font-size: 15px">There are no problems with <b>AppStore</b> and <b>Apple applications.</b>
+
+><p style="font-size: 15px">Also, thanks to this <b>EFI</b>, you can run your processor <b>stably</b> in <b>D.O.C.P</b> and <b>OC Tweak mode.<b/> <b>(TESTED OVER 3800x)</b>
+  
 ### Turkish Guide <br><br>
 > ### OpenCore Güncelleme
 </br>
@@ -65,3 +105,4 @@
 ><p style="font-size: 15px"><b>AppStore</b> ve <b>Apple uygulamaları</b> ile alakalı hiçbir sorun bulunmamaktadır.
 
 ><p style="font-size: 15px">Ayrıca bu <b>EFI</b> sayesinde <b>D.O.C.P</b> ve <b>OC Tweak</b> modunda stabil bir şekilde işlemcinizi çalıştırabilirsiniz. <b style="color: green;">(3800x ÜZERİNDE TEST EDİLDİ)</b>
+
