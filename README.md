@@ -65,12 +65,12 @@
 
 ><p style="font-size: 15px">Also, thanks to this <b>EFI</b>, you can run your processor <b>stably</b> in <b>D.O.C.P</b> and <b>OC Tweak mode.<b/> <b>(TESTED OVER 3800x)</b>
   
-### Turkish Guide <br><br>
+  ### Turkish Guide <br><br>
 > ### OpenCore Güncelleme
 </br>
-><p style="font-size: 15px">OpenCore 0.6.0 sürümü ile önceki sürümlerinden farklı olarak FwRuntimeService'i kullanımdan kaldırarak OpenRuntime'a geçiş yaptı. Bu bağlamda eski sürümlerden yeni sürümlere hızlı ve sorunsuz bir geçiş yapmak adına sizlere bu işlem tasarısından bahsedeceğim.</p><br>
+<p style="font-size: 15px">OpenCore 0.6.0 sürümü ile önceki sürümlerinden farklı olarak FwRuntimeService'i kullanımdan kaldırarak OpenRuntime'a geçiş yaptı. Bu bağlamda eski sürümlerden yeni sürümlere hızlı ve sorunsuz bir geçiş yapmak adına sizlere bu işlem tasarısından bahsedeceğim.</p><br>
 
-> Öncelikle buradan <b><a href="https://github.com/acidanthera/OpenCorePkg/releases" target="_blank">OpenCore-0.6.0-RELEASE.zip</a></b> dosyasını indirin.
+>Öncelikle buradan <b><a href="https://github.com/acidanthera/OpenCorePkg/releases" target="_blank">OpenCore-0.6.0-RELEASE.zip</a></b> dosyasını indirin.
 
 >İndirdiğiniz zip dosyasını çıkartın.
 
@@ -85,7 +85,7 @@
 <br>
 
 
->### Important Notes
+>### Önemli Notlar
 <br/>
 
 ><p style="font-size: 15px">Kısmi çalışan donanımlar başlığı altında belirttiğim <b>ALC887</b> model ses kartının bu başlık altında verilmesinin nedeni mikrofon girişlerinin tüm <b><a href="https://github.com/acidanthera/applealc/wiki/supported-codecs" target="_blank">layout-id</a></b>'lerin denenmesine rağmen çalışmıyor olmasıdır. <b>Apple ALC</b> ile <b>native</b> olarak hoparlör üzerinden tüm <b>layout-id</b>'ler ile ses alınabilmektedir.</p>
