@@ -6,10 +6,6 @@
 
 ## System Features
 
-<br>
-
->### AMD Based Custom System <br><br>
-
 >Asus TUF B450-Plus Gaming (3 PCI-E x1, 2 PCI-E x16, 1 M.2, 4 DDR4 DIMM, Audio, Video, Gigabit LAN) 
 
 >OctalCore AMD Ryzen 7 3800X, 4300 MHz (43 x 100) 36MB Cache Soket AM4 
@@ -29,8 +25,6 @@
 >JAMESDONKEY JD120 120GB
 
 ## Installation
-
-#### <p style="color: #828282;">Turkish Guide</p><br>
 > ### OpenCore Güncelleme
 </br>
 <p style="font-size: 15px">OpenCore 0.6.0 sürümü ile önceki sürümlerinden farklı olarak FwRuntimeService'i kullanımdan kaldırarak OpenRuntime'a geçiş yaptı. Bu bağlamda eski sürümlerden yeni sürümler hızlı ve sorunsuz bir geçiş yapmak adına sizlere bu işlem tasarısından bahsedeceğim.</p><br>
