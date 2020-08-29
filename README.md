@@ -25,7 +25,7 @@
 >JAMESDONKEY JD120 120GB
 
 ## Installation
-#Turkish Guide
+### Turkish Guide <br><br>
 > ### OpenCore Güncelleme
 </br>
 <p style="font-size: 15px">OpenCore 0.6.0 sürümü ile önceki sürümlerinden farklı olarak FwRuntimeService'i kullanımdan kaldırarak OpenRuntime'a geçiş yaptı. Bu bağlamda eski sürümlerden yeni sürümler hızlı ve sorunsuz bir geçiş yapmak adına sizlere bu işlem tasarısından bahsedeceğim.</p><br>
