@@ -63,7 +63,7 @@
 
 ><p style="font-size: 15px">There are no problems with <b>AppStore</b> and <b>Apple applications.</b>
 
-><p style="font-size: 15px">Also, thanks to this <b>EFI</b>, you can run your processor <b>stably</b> in <b>D.O.C.P</b> and <b>OC Tweak mode.<b/>(TESTED OVER 3800x)
+><p style="font-size: 15px">Also, thanks to this <b>EFI</b>, you can run your processor <b>stably</b> in <b>D.O.C.P</b> and <b>OC Tweak mode.<b/> (TESTED OVER 3800x)
   
   ### Turkish Guide <br><br>
 > ### OpenCore Güncelleme
