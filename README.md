@@ -86,7 +86,6 @@
 
 >### Önemli Notlar
 <br/>
-
 ><p style="font-size: 15px">Kısmi çalışan donanımlar başlığı altında belirttiğim <b>ALC887</b> model ses kartının bu başlık altında verilmesinin nedeni mikrofon girişlerinin tüm <b><a href="https://github.com/acidanthera/applealc/wiki/supported-codecs" target="_blank">layout-id</a></b>'lerin denenmesine rağmen çalışmıyor olmasıdır. <b>Apple ALC</b> ile <b>native</b> olarak hoparlör üzerinden tüm <b>layout-id</b>'ler ile ses alınabilmektedir.</p>
 
 ><p style="font-size: 15px">Bu durum <b>OpenCore</b>'dan kaynaklanmaktadır. 
