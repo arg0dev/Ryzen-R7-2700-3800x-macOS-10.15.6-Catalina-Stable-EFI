@@ -1,4 +1,4 @@
-  # Ryzen R7 2700/3800x-macOS-10.15.5/6/7 Catalina Stable
+  # Ryzen R7 2700/3800x-macOS-10.15.5/6/7 / 11.0.1 Catalina & Big Sur Stable
 
 ## Introduction
 
